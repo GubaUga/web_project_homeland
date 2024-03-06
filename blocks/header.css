@@ -1,4 +1,26 @@
 .header {
-  display: grid;
-  grid-template-rows: 1;
+  display: flex;
+}
+
+.header__logo {
+  margin: 0 513px;
+  padding: 34px 0 90px 0;
+  width: 254px;
+  height: 70px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__logo {
+    margin: 0 257px;
+    width: 254px;
+    height: 66px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header__logo {
+    margin: 0 auto 0 66px;
+    width: 189px;
+    height: 53px;
+  }
 }

@@ -1,0 +1,64 @@
+.about {
+  background-image: url(./../images/cover.png);
+  width: 1184px;
+  height: 740px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.about__title {
+  font-family: "Inter Black";
+  font-size: 72px;
+  line-height: 76px;
+  color: #fffdfd;
+  margin: 0 0 32px 0;
+}
+
+.about__paragraph {
+  font-family: "Inter Regular";
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 280px;
+  text-align: center;
+  margin: 0 0 32px 0;
+}
+
+.about__button {
+  border: none;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #0278fe;
+  color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Inter Semi Bold";
+  cursor: pointer;
+  max-width: 285px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .about {
+    width: 320px;
+  }
+
+  .about__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .about__paragraph {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

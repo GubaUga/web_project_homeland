@@ -1,0 +1,69 @@
+.info {
+  width: 100%;
+  max-width: 830px;
+  margin-left: 100px;
+}
+
+.info__title {
+  font-size: 54px;
+  font-family: "Inter Black";
+  line-height: 58px;
+  margin: 0 0 40px 0;
+}
+
+.info__citation {
+  max-width: 738px;
+  margin: 0 0 10px 0;
+  font-family: "Inter Regular";
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.info__citation_author {
+  margin: 0 10px 32px 0;
+  display: flex;
+  justify-content: end;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.info__paragraph {
+  font-size: 16px;
+  line-height: 163%;
+  margin: 0 0 118px 0;
+  max-width: 725px;
+}
+
+@media screen and (max-width: 1024px) {
+  .info {
+    max-width: 720px;
+    margin: 0 16px;
+  }
+
+  .info__title {
+    font-size: 54px;
+    line-height: 58px;
+  }
+
+  .info__citation {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .info {
+    max-width: 720px;
+    margin: 0 24px;
+  }
+
+  .info__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .info__citation {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
