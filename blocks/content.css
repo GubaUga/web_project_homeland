@@ -8,12 +8,12 @@
 
 @media screen and (max-width: 1024px) {
   .content {
-    padding: 0 24px 64px;
+    padding: 0 0 64px;
   }
 }
 
 @media screen and (max-width: 720px) {
   .content {
-    padding: 0 16px 38px;
+    padding: 0 0 38px;
   }
 }

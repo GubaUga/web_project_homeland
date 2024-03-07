@@ -29,7 +29,7 @@
   grid-area: title;
 }
 
-.card__span {
+.card__info {
   grid-area: author;
   align-self: flex-end;
 }
@@ -79,6 +79,11 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .cards {
+    max-width: 768px;
+    margin-left: 24px;
+  }
+
   .card__title {
     font-size: 42px;
     max-width: 340px;
@@ -100,6 +105,8 @@
 @media screen and (max-width: 720px) {
   .cards {
     max-width: 320px;
+    margin: 0;
+    gap: 30px;
   }
 
   .card {
@@ -118,20 +125,23 @@
     font-size: 32px;
     line-height: 35px;
     max-width: 288px;
+    padding-left: 16px;
   }
 
-  .card__span {
+  .card__info {
     margin-bottom: 30px;
     max-width: 288px;
   }
 
   .card__artist {
     font-size: 12px;
+    padding-left: 16px;
   }
 
   .card__author {
     font-size: 18px;
     line-height: 22px;
+    padding-left: 16px;
   }
 
   .card__image {
@@ -140,6 +150,7 @@
 
   .card__paragraph {
     font-size: 16px;
+    padding-left: 16px;
   }
 
   .card__button {

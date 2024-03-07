@@ -17,7 +17,8 @@
   }
 
   .pictures__image {
-    max-width: 352px;
+    width: 352px;
+    max-width: 100%;
   }
 }
 
@@ -28,6 +29,6 @@
   }
 
   .pictures__image {
-    max-width: 352px;
+    max-width: 288px;
   }
 }

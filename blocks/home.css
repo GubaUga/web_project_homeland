@@ -30,16 +30,24 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .home {
+    width: 768px;
+    margin: 0;
+  }
+
+  .home__title {
+    max-width: 720px;
+  }
+
   .home__image {
-    max-width: 768px;
     width: 100%;
   }
 }
 
 @media screen and (max-width: 720px) {
   .home {
-    max-width: 328px;
-    width: 100%;
+    width: 320px;
+    margin: 0;
   }
 
   .home__title {
@@ -51,5 +59,9 @@
   .home__subtitle {
     font-size: 16px;
     line-height: 1.25;
+  }
+
+  .home__image {
+    max-width: 320px;
   }
 }
