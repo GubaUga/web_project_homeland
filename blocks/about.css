@@ -17,13 +17,25 @@
   margin: 0 0 32px 0;
 }
 
+.about__paragraphs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .about__paragraph {
   font-family: "Inter Regular";
   font-size: 18px;
   line-height: 22px;
-  max-width: 280px;
+  max-width: 227px;
   text-align: center;
+  margin: 0;
+}
+
+.about__paragraph:nth-last-of-type(1) {
   margin: 0 0 32px 0;
+  max-width: 270px;
 }
 
 .about__button {

@@ -41,6 +41,11 @@
   padding-bottom: 8px;
 }
 
+.card__authors {
+  display: flex;
+  flex-direction: column;
+}
+
 .card__author {
   font-size: 18px;
   line-height: 22px;
@@ -53,6 +58,12 @@
   height: 100%;
   max-width: 460px;
   max-height: 460px;
+}
+
+.card__paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .card__paragraph {
@@ -139,6 +150,7 @@
   }
 
   .card__author {
+    width: 290px;
     font-size: 18px;
     line-height: 22px;
     padding-left: 16px;
@@ -155,5 +167,6 @@
 
   .card__button {
     width: 288px;
+    margin-left: 16px;
   }
 }
