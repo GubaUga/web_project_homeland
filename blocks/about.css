@@ -9,6 +9,11 @@
   margin: 0 auto;
 }
 
+.about:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(./../images/cover.png);
+}
+
 .about__title {
   font-family: "Inter Black";
   font-size: 72px;
@@ -51,6 +56,10 @@
   font-family: "Inter Semi Bold";
   cursor: pointer;
   max-width: 285px;
+}
+
+.about__button:hover {
+  background-color: #0063d2;
 }
 
 @media screen and (max-width: 1024px) {
